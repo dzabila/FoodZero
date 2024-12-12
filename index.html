@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dzabila</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -13,14 +22,56 @@
       <div class="header__container">
         <div class="dzabila"><a href="#">Dzabila</a></div>
         <nav>
-            <ul class="nav__list">
-                <li><a href="#" class="nav__list--item">ABOUT</a></li>
-                <li><a href="#" class="nav__list--item">PROJECTS</a></li>
-                <li class="touch"><a href="#" class="nav__list--item">GET IN TOUCH</a></li>
-            </ul>
+          <ul class="nav__list">
+            <li><a href="#" class="nav__list--item">ABOUT</a></li>
+            <li><a href="#" class="nav__list--item">PROJECTS</a></li>
+            <li class="touch">
+              <a href="#" class="nav__list--item">GET IN TOUCH</a>
+            </li>
+          </ul>
         </nav>
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
+    <main>
+      <section class="section__one">
+        <div class="section__one--container">
+          <h1 class="section__one--title">hello!</h1>
+          <p class="section__one--paragraph">
+            Hello! My name is Dzabila, and I am a passionate student. currently
+            learning front-end development. I enjoy creating beautiful and
+            user-friendly websites
+          </p>
+          <div class="section__one--links">
+            <div class="section__one--links--icons">
+              <a
+                href="https://www.linkedin.com/in/giorgi-dzabilashvili-465503258/"
+                class="section__one--links--linkedin"
+                target="_blank"
+                ><img src="./img/linkedin.png" alt="linkedin icon"
+              /></a>
+              <a
+                href="https://github.com/dzabila?tab=repositories"
+                class="section__one--links--github"
+                target="_blank  "
+                ><img src="./img/github.png" alt="github icon"
+              /></a>
+            </div>
+
+            <div class="section__one--links--buttons">
+              <button type="button" class="section__one--links--button1">
+                VIEW PROJECTS
+              </button>
+              <button type="button" class="section__one--links--button2">
+                GET IN TOUCH
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__two">
+        <div class="section__two--container"></div>
+      </section>
+    </main>
   </body>
 </html>

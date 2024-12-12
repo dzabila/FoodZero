@@ -14,16 +14,17 @@ body {
   justify-content: space-between;
   align-items: center;
   transition: all 0.8s;
-
 }
 .dzabila {
   width: 229px;
   height: 54px;
   font-size: 45px;
+  font-family: "Kaushan Script", cursive, sans-serif;
   margin-left: 46.75px;
+  transition: font-size 0.3s ease;
 }
 .dzabila:hover {
-    font-size: 50px;
+  font-size: 50px;
 }
 .dzabila a {
   color: white;
@@ -39,9 +40,10 @@ body {
 .nav__list--item {
   color: white;
   font-size: 18px;
+  transition: font-size 0.3s ease;
 }
 .nav__list--item:hover {
-    font-size: 20px;
+  font-size: 20px;
 }
 .touch {
   width: 196px;
@@ -55,51 +57,229 @@ body {
 .fa-bars {
   display: none;
 }
+/* section one code */
+.section__one {
+  width: 100%;
+  height: 701px;
+}
+.section__one--container {
+  max-width: 1110px;
+  width: 100%;
+  height: 372.38px;
+  margin: 0 auto;
+  margin-top: 164.25px;
+  background-color: white;
+  border-radius: 41px;
+  padding-top: 1px;
+  transition: all 0.9s ease;
+}
+.section__one--title {
+  font-size: 36px;
+  color: #0e1010;
+  width: 595px;
+  margin-top: 95px;
+  margin-left: 95px;
+  font-family: "Kaushan Script", cursive, sans-serif;
+  transition: all 0.9s ease;
+}
+.section__one--paragraph {
+  font-size: 20px;
+  color: black;
+  width: 792px;
+  margin-left: 95px;
+  margin-top: 11px;
+  transition: all 0.9s ease;
+}
+.section__one--links {
+  display: flex;
+  margin-top: 44px;
+  margin-left: 95px;
+  align-items: center;
+  transition: all 0.9s ease;
+}
+.section__one--links--icons {
+  display: flex;
+}
+.section__one--links--linkedin {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.section__one--links--linkedin:hover {
+  transform: translateY(-3px);
+}
+.section__one--links--github {
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.section__one--links--github:hover {
+  transform: translateY(-3px);
+}
+.section__one--links--button1 {
+  width: 168px;
+  height: 33px;
+  border-radius: 74px;
+  border: 2px solid #859591;
+  background-color: white;
+  margin-left: 365px;
+  font-size: 14px;
+  color: #272d2b;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.section__one--links--button1:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+.section__one--links--button2 {
+  width: 190px;
+  height: 33px;
+  background-color: #2f3634;
+  margin-left: 20px;
+  color: white;
+  font-size: 14px;
+  border-radius: 74px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.section__one--links--button2:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
 /* 1065px resolution code */
-@media (max-width:1440px){
-    .header__container {
-        max-width: 1024px;
-    }
-    .dzabila {
-        margin-left: 32.5px;
-    }
-    .nav__list {
-        margin-right: 29.66px;
-    }
+@media (max-width: 1440px) {
+  .header__container {
+    max-width: 1024px;
+  }
+  .dzabila {
+    margin-left: 32.5px;
+  }
+  .nav__list {
+    margin-right: 29.66px;
+  }
+  /* section two code 1065 */
+  .section__one {
+    height: 566.38px;
+  }
+  .section__one--container {
+    max-width: 960px;
+    height: 302.38px;
+    margin-top: 132px;
+  }
+  .section__one--title {
+    font-size: 32px;
+    margin-left: 75px;
+    margin-top: 75px;
+  }
+  .section__one--paragraph {
+    font-size: 16px;
+    width: 613.18px;
+    margin-left: 75px;
+    margin-top: 9px;
+  }
+  .section__one--links {
+    margin-left: 75px;
+  }
+  .section__one--links--button1 {
+    margin-left: 34 0px;
+  }
 }
 
 /* 744px resolution code  */
-@media (max-width: 1065px){
-    .header__container {
-        max-width: 745.16px;
-    }
-    .dzabila {
-        margin-left: 25.41px;
-    }
-    nav {
-        display: none;
-    }
-    .fa-bars {
-        display: block;
-        font-size: 50px;
-        color: white;
-        margin-right: 45.5px;
-    }
+@media (max-width: 1065px) {
+  .header__container {
+    max-width: 745.16px;
+  }
+  .dzabila {
+    margin-left: 25.41px;
+  }
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    font-size: 50px;
+    color: white;
+    margin-right: 45.5px;
+  }
+  /* section one code 744px */
+  .section__one {
+    height: 461.88px;
+  }
+  .section__one--container {
+    width: 689px;
+    height: 291.88px;
+    margin-top: 85px;
+  }
+  .section__one--title {
+    margin-top: 71px;
+    margin-left: 71px;
+  }
+  .section__one--paragraph {
+    margin-left: 71px;
+    margin-top: 9px;
+    width: 548px;
+  }
+  .section__one--links {
+    margin-left: 71px;
+  }
+  .section__one--links--button1 {
+    margin-left: 111.28px;
+
+  }
 }
 /* 375px resolution code    */
-@media (max-width:744px){
-    .header__container {
-        max-width: 375px;
-        height: 56.96px;
-    }
-    .dzabila {
-        width: 153px;
-        height: 36px;
-        margin-left: 24px;
-        font-size: 30px;
-    }
-    .fa-bars {
-        font-size: 30px;
-        margin-right: 19.09px;
-    }
+@media (max-width: 744px) {
+  .header__container {
+    max-width: 375px;
+    height: 56.96px;
+  }
+  .dzabila {
+    width: 153px;
+    height: 36px;
+    margin-left: 24px;
+    font-size: 30px;
+  }
+  .fa-bars {
+    font-size: 30px;
+    margin-right: 19.09px;
+  }
+  /* section one code 375px */
+  .section__one {
+    height: 291.86px;
+  }
+  .section__one--container {
+    width: 325.26px;
+    height: 239.68px;
+    margin-top: 26.09px;
+  }
+  .section__one--title {
+    font-size: 28px;
+    width: 292.89px;
+    margin-top: 22.17px;
+    margin-left: 20px;
+  }
+  .section__one--paragraph {
+    width: 292.35px;
+    margin-top: 11.74px;
+    margin-left: 20px;
+  }
+  .section__one--links {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .section__one--links--icons {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .section__one--links--button1 {
+    margin-left: 20px;
+    width: 190px;
+    margin-bottom: 5px;
+  }
 }
