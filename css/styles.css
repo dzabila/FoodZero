@@ -248,13 +248,13 @@ body {
 /* section four code */
 .section__four {
   width: 100%;
-  height: 2000px;
+  height: 1700px;
   transition: all 0.5s ease;
 }
 .section__four--container {
   max-width: 1113.39px;
   width: 100%;
-  height: 1777.24px;
+  height: 1700px;
   margin: 0 auto;
   transition: all 0.5s ease;
   display: flex;
@@ -407,8 +407,12 @@ body {
   }
   /* section four code 1065px */
   .section__four {
-    height: 1600px;
+    height: 1400px;
   }
+  .section__four--container {
+    height: 1400px;
+  }
+
   .section__four--title {
     font-size: 32px;
   }
@@ -515,7 +519,7 @@ body {
   }
   /* section four code 744px */
   .section__four {
-    height: 1500px;
+    height: 1300px;
   }
   .section__four--projects {
     width: 696px;
