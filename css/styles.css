@@ -346,17 +346,20 @@ body {
 .section__five {
   width: 100%;
   height: 300px;
+  transition: all 0.5s ease;
 }
 .section__five--container {
   width: 574px;
   height: 160.44px;
   margin: 0 auto;
+  transition: all 0.5s ease;
 }
 .section__five--title {
   font-size: 36px;
   text-align: center;
   color: white;
   font-family: "Kaushan Script", cursive, sans-serif;
+  transition: all 0.5s ease;
 }
 .section__five--paragraph {
   font-size: 20px;
@@ -364,6 +367,7 @@ body {
   width: 574px;
   color: white;
   margin-top: 10px;
+  transition: all 0.5s ease;
 }
 .section__five--links {
   width: 408.69px;
@@ -373,6 +377,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: all 0.5s ease;
 }
 .section__five--icons--gmail {
   width: 35px;
@@ -414,6 +419,36 @@ body {
 .section__five--icons--figma:hover {
   width: 23px;
   height: 33px;
+}
+footer {
+  width: 100%;
+  border-top: 1px solid #272D2B;
+}
+.footer__container {
+  max-width: 1440px;
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 1px;
+}
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 425.34px;
+  margin: 0 auto;
+  margin-top: 36px
+}
+.footer__navigation--item {
+  color: white;
+  transition: all 0.5s ease;
+}
+.footer__navigation--item:hover {
+  font-size: 22px;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 /* 1065px resolution code */
 @media (max-width: 1440px) {
@@ -529,6 +564,10 @@ body {
     font-size: 16px;
     width: 460px;
   }
+  /* footer code */
+  .footer__container {
+    max-width: 1024px;
+  }
 }
 
 /* 744px resolution code  */
@@ -618,6 +657,10 @@ body {
     height: 274.47px;
   }
   /* section five code 744px */
+  /* footer code */
+  .footer__container {
+    max-width: 744px;
+  }
 
 }
 /* 375px resolution code    */
@@ -745,5 +788,12 @@ body {
   }
   .section__five--links {
     width: 325px;
+  }
+  /* footer */
+  .footer__container {
+    max-width: 375px;
+  }
+  .footer__navigation {
+    width: 283px;
   }
 }
