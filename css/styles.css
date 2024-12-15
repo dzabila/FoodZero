@@ -245,6 +245,104 @@ body {
   cursor: pointer;
   font-size: 26px;
 }
+/* section four code */
+.section__four {
+  width: 100%;
+  height: 2000px;
+  transition: all 0.5s ease;
+}
+.section__four--container {
+  max-width: 1113.39px;
+  width: 100%;
+  height: 1777.24px;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__four--title {
+  font-size: 36px;
+  color: white;
+  font-family: "Kaushan Script", cursive, sans-serif;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.section__four--subtitle {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 23px;
+  transition: all 0.5s ease;
+}
+.section__four--projects {
+  width: 1110px;
+  height: 334.89px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46.51px;
+  transition: all 0.5s ease;
+}
+.section__four--project {
+  width: 634.79px;
+  height: 332.47px;
+  background-color: #2f3634;
+  transition: all 0.5s ease;
+}
+.section__four--project--text {
+  width: 445.25px;
+  height: 334.89px;
+  transition: all 0.5s ease;
+}
+.section__four--project--title {
+  font-size: 20px;
+  color: #859591;
+  transition: all 0.5s ease;
+}
+.section__four--project--subtitle {
+  font-size: 36px;
+  color: white;
+  height: 43px;
+  margin-top: 5px;
+  transition: all 0.5s ease;
+}
+.section__four--project--paragraph {
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  margin-top: 10px;
+  transition: all 0.5s ease;
+}
+.section__four--icons {
+  display: flex;
+  align-items: center;
+  margin-top: 30.89px;
+  transition: all 0.5s ease;
+}
+.section__four--project--icon {
+  margin-right: 17.66px;
+  width: 25px;
+  height: 25px;
+}
+.section__four--project--button {
+  width: 184px;
+  height: 33px;
+  border-radius: 74px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #2f3634;
+  border: none;
+  margin-top: -5px;
+}
+.section__four--project--button:hover {
+  background-color: #555555; 
+  color: #ff69b4;
+  box-shadow: 0 0 10px 2px #ff69b4;
+  transform: translateY(-10px);
+  transform: scale(1.05);
+  cursor: pointer;
+}
 /* 1065px resolution code */
 @media (max-width: 1440px) {
   .header__container {
@@ -306,6 +404,42 @@ body {
   .box {
     width: 310.79px;
     height: 166.21px;
+  }
+  /* section four code 1065px */
+  .section__four {
+    height: 1600px;
+  }
+  .section__four--title {
+    font-size: 32px;
+  }
+  .section__four--subtitle {
+    font-size: 16px;
+  }
+  .section__four--projects {
+    width: 964.1px;
+    height: 274.57px;
+    justify-content: space-between;
+  }
+  .section__four--project {
+    height: 272.04px;
+    width: 588.43px;
+  }
+  .section__four--project--text {
+    width: 345px;
+    height: 273px;
+  }
+  .section__four--project--title {
+    font-size: 16px;
+  }
+  .section__four--project--subtitle {
+    font-size: 32px;
+  }
+  .section__four--project--paragraph {
+    font-size: 16px;
+  }
+  .section__four--project--button {
+    width: 123px;
+    margin-left: 60px;
   }
 }
 
@@ -378,6 +512,22 @@ body {
   .box {
     width: 225.49px;
     height: 120.59px;
+  }
+  /* section four code 744px */
+  .section__four {
+    height: 1500px;
+  }
+  .section__four--projects {
+    width: 696px;
+    height: 274px;
+  }
+  .section__four--project {
+    width: 339.86px;
+    height: 268.96px;
+  }
+  .section__four--text {
+    width: 340px;
+    height: 274.47px;
   }
 }
 /* 375px resolution code    */
@@ -463,5 +613,29 @@ body {
   }
   .box:hover {
     font-size: 16px;
+  }
+  /* section four 375px code */
+  .section__four {
+     height: 1700px;
+  }
+  .section__four--projects {
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 368.08px;
+  }
+  .section__four--project {
+    width: 327px;
+    height: 114.43px;
+  }
+  .section__four--project--text{
+    width: 327px;
+    height: 246.65px;
+  } 
+  .section__four--project--button {
+    margin-left: 80px;
+  }
+  .section__four--projects--resp {
+    flex-direction: column-reverse;
   }
 }
