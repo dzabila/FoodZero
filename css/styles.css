@@ -666,11 +666,11 @@ footer {
 /* 375px resolution code    */
 @media (max-width: 744px) {
   .header__container {
-    max-width: 375px;
+    max-width: 310px;
     height: 56.96px;
   }
   .dzabila {
-    width: 153px;
+    max-width: 153px;
     height: 36px;
     margin-left: 24px;
     font-size: 30px;
@@ -684,20 +684,20 @@ footer {
     height: 291.86px;
   }
   .section__one--container {
-    width: 325.26px;
+    max-width: 300px;
     height: 239.68px;
     margin-top: 26.09px;
   }
   .section__one--title {
     font-size: 28px;
-    width: 292.89px;
+    max-width: 200.89px;
     margin-top: 22.17px;
     margin-left: 20px;
   }
   .section__one--paragraph {
-    width: 292.35px;
+    max-width: 292.35px;
     margin-top: 11.74px;
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .section__one--links {
     margin-left: 20px;
@@ -709,7 +709,7 @@ footer {
   }
   .section__one--links--button1 {
     margin-left: 20px;
-    width: 190px;
+    max-width: 190px;
     margin-bottom: 5px;
   }
   /* section two code 375px */
@@ -720,7 +720,7 @@ footer {
     font-size: 28px;
   }
   .section__two--text {
-    width: 327.32px;
+    max-width: 300px;
     margin-left: 0;
     text-align: center;
   }
@@ -729,18 +729,18 @@ footer {
     height: 430px;
   }
   .section__three--container {
-    width: 327px;
+    max-width: 300px;
     height: 326.22px;
   }
   .section__three--title {
     font-size: 28px;
   }
   .section__three--flex {
-    width: 327px;
+    max-width: 300px;
     height: 247.24px;
   }
   .box {
-    width: 159.04px;
+    max-width: 150px;
     height: 77.1px;
     font-size: 14px;
   }
@@ -754,15 +754,15 @@ footer {
   .section__four--projects {
     flex-direction: column;
     align-items: center;
-    width: 327px;
+    max-width: 300px;
     height: 368.08px;
   }
   .section__four--project {
-    width: 327px;
+    max-width: 300px;
     height: 114.43px;
   }
   .section__four--project--text {
-    width: 327px;
+    max-width: 300px;
     height: 246.65px;
   }
   .section__four--project--button {
@@ -776,24 +776,24 @@ footer {
     height: 210px;
   }
   .section__five--container {
-    width: 327px;
+    max-width: 300px;
     height: 162.38px;
   }
   .section__five--title {
     font-size: 28px;
   }
   .section__five--paragraph {
-    width: 327px;
+    max-width: 300px;
     font-size: 16px;
   }
   .section__five--links {
-    width: 325px;
+    max-width: 300px;
   }
   /* footer */
   .footer__container {
-    max-width: 375px;
+    max-width: 300px;
   }
   .footer__navigation {
-    width: 283px;
+    max-width: 283px;
   }
 }
