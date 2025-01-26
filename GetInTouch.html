@@ -47,15 +47,16 @@
     </header>
     <section>
       <div class="form__container">
-        <form action="/submit" method="POST">
+        <form action="/submit" method="POST" id="contactForm">
           <label for="full-name">Full Name:</label>
           <input
             type="text"
-            id="full-name"
+            id="fullName"
             name="fullName"
             placeholder="Enter your full name"
             required
           />
+          <span id="fullNameError" class="error"></span>
 
           <label for="email">Email:</label>
           <input
@@ -65,6 +66,7 @@
             placeholder="Enter your email"
             required
           />
+          <span id="emailError" class="error"></span>
 
           <label for="message">Message:</label>
           <textarea
@@ -74,7 +76,13 @@
             placeholder="Enter your message"
             required
           ></textarea>
-
+          <span id="messageError" class="error"></span>
+          <label for="password">Password:</label>
+          <div class="password-container">
+            <input type="password" id="password" name="password" />
+            <button type="button" id="showHideButton">Show</button>
+          </div>
+          <span id="passwordError" class="error"></span>
           <button type="submit">Send</button>
         </form>
       </div>
